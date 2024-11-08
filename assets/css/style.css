@@ -34,6 +34,10 @@ header li{
     padding-left: 2em;
 }
 
+main{
+    background-color: #EAEDED;
+}
+
 .gift{
     background-color: #F56600;
     text-align: center;
@@ -59,16 +63,142 @@ header li{
 }
 
 h1{
-    color: white;
+    color: #EAEDED;
     font-size: xx-large;
     padding-top: 2.2em;
     font-weight: bold;
 }
 
 .holiday h2{
-    color: white;
-    font-size: large;
+    color: #EAEDED;
+    font-size: larger;
     padding-top: 1.5em;
     padding-bottom: 2.5em;
     font-weight: bold;
+}
+
+.banner1{
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
+    background-color: #FFFFFF;
+}
+
+.titolo1 h2, .titolo1 a{
+    margin-top: 1em;
+    display: inline-block;
+}
+
+.titolo1 h2{
+    padding-left: 1.5em;
+    font-size: 130%;
+    font-weight: 500;
+}
+
+.titolo1 a{
+    color: #007185;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 0.8em;
+}
+
+.immagini{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4em;
+    padding-bottom: 1em;
+}
+
+.immagini img{
+    display: inline-block;
+    margin-top: 0.8em;
+    margin-right: 2em;
+    border-radius: 5%;
+    object-fit: cover;
+    box-shadow: 12px 16px 26px -3px rgba(0,0,0,0.20);
+}
+
+.immagine1{
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.immagine1 img{
+    width: 100%;
+}
+
+.titolo2{
+    text-align: center;
+}
+
+.titolo2 h2, .titolo2 a{
+    display: inline-block;
+}
+
+.titolo2 h2{
+    font-size: larger;
+    font-weight: 500;
+}
+
+.titolo2 a{
+    color: #007185;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 0.8em;
+}
+
+.immagine2{
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+.immagine2 img{
+    width: 100%;
+}
+
+.titolo3{
+    text-align: center;
+}
+
+.titolo3 h2, .titolo3 a{
+    display: inline-block;
+}
+
+.titolo3 h2{
+    font-size: larger;
+    font-weight: 500;
+}
+
+.titolo3 a{
+    color: #007185;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 0.8em;
+}
+
+.anchor{
+    background-color: #364759;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+}
+
+.anchor a{
+    color: #EAEDED;
+    font-weight: bold;
+}
+
+.logo2{
+    background-color: #222F3E;
+    text-align: center;
+}
+
+.logo2 img{
+    width: 10%;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
