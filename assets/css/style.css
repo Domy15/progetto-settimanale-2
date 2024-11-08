@@ -7,18 +7,21 @@ body{
     background-color: #222F3E;
 }
 
+.logo img, .nav ul{
+    padding-left: 2em;
+}
+
 .logo img{
     width: 7.2em;
     padding-top: 0.5em;
-    padding-left: 2em;
     padding-bottom: 0.6em;
 }
 
-.nav{
+nav{
     background-color: #364759;
 }
 
-header nav a{
+header nav a, .gift a{
     color: white;
     text-decoration: none;
 }
@@ -28,10 +31,6 @@ header li{
     margin-top: 0.6em;
     margin-bottom: 0.6em;
     margin-right: 1em;
-}
-
-.nav ul{
-    padding-left: 2em;
 }
 
 main{
@@ -48,39 +47,35 @@ main{
     margin-left: 2em;
 }
 
-.gift a{
-    color: white;
-    text-decoration: none;
+.holiday, .banner1, .immagine1, .immagine2{
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 2em;
 }
 
 .holiday{
-    margin-top: 2em;
-    margin-right: 2em;
-    margin-left: 2em;
     text-align: center;
     background-image: url(/assets/images/bg-image.png);
     background-size: 100%;
 }
 
-h1{
+h1, .holiday h2{
     color: #EAEDED;
+    font-weight: bold;
+}
+
+h1{
     font-size: xx-large;
     padding-top: 2.2em;
-    font-weight: bold;
 }
 
 .holiday h2{
-    color: #EAEDED;
     font-size: larger;
     padding-top: 1.5em;
     padding-bottom: 2.5em;
-    font-weight: bold;
 }
 
 .banner1{
-    margin-top: 2em;
-    margin-right: 2em;
-    margin-left: 2em;
     background-color: #FFFFFF;
 }
 
@@ -91,11 +86,14 @@ h1{
 
 .titolo1 h2{
     padding-left: 1.5em;
+}
+
+.titolo1 h2, .titolo2 h2, .titolo3 h2{
     font-size: 130%;
     font-weight: 500;
 }
 
-.titolo1 a{
+.titolo1 a, .titolo2 a, .titolo3 a{
     color: #007185;
     font-weight: bold;
     text-decoration: none;
@@ -103,9 +101,7 @@ h1{
 }
 
 .immagini{
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
     padding-left: 4em;
     padding-bottom: 1em;
 }
@@ -119,64 +115,16 @@ h1{
     box-shadow: 12px 16px 26px -3px rgba(0,0,0,0.20);
 }
 
-.immagine1{
-    margin-right: 2em;
-    margin-left: 2em;
-    margin-top: 2em;
-}
-
-.immagine1 img{
+.immagine1 img, .immagine2 img{
     width: 100%;
 }
 
-.titolo2{
+.titolo2, .titolo3{
     text-align: center;
 }
 
-.titolo2 h2, .titolo2 a{
+.titolo2 h2, .titolo2 a, .titolo3 h2, .titolo3 a{
     display: inline-block;
-}
-
-.titolo2 h2{
-    font-size: larger;
-    font-weight: 500;
-}
-
-.titolo2 a{
-    color: #007185;
-    font-weight: bold;
-    text-decoration: none;
-    margin-left: 0.8em;
-}
-
-.immagine2{
-    margin-right: 2em;
-    margin-left: 2em;
-    margin-top: 2em;
-}
-
-.immagine2 img{
-    width: 100%;
-}
-
-.titolo3{
-    text-align: center;
-}
-
-.titolo3 h2, .titolo3 a{
-    display: inline-block;
-}
-
-.titolo3 h2{
-    font-size: larger;
-    font-weight: 500;
-}
-
-.titolo3 a{
-    color: #007185;
-    font-weight: bold;
-    text-decoration: none;
-    margin-left: 0.8em;
 }
 
 .anchor{
