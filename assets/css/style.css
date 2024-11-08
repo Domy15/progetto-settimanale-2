@@ -3,7 +3,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.logo{
+.logo, .logo2{
     background-color: #222F3E;
 }
 
@@ -115,15 +115,15 @@ h1{
     box-shadow: 12px 16px 26px -3px rgba(0,0,0,0.20);
 }
 
-.immagine1 img, .immagine2 img{
+.immagine1 img{
     width: 100%;
 }
 
-.titolo2, .titolo3{
+.titolo2{
     text-align: center;
 }
 
-.titolo2 h2, .titolo2 a, .titolo3 h2, .titolo3 a{
+.titolo2 h2, .titolo2 a{
     display: inline-block;
 }
 
@@ -141,7 +141,6 @@ h1{
 }
 
 .logo2{
-    background-color: #222F3E;
     text-align: center;
 }
 
